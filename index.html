@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API Search</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Source+Code+Pro:700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="dim"></div>
+	<div class="overlayContainer">
+		<h2 class="overlayTitle">Movie Recommendations</h2>
+		<p class="overlayPara">Search some of your favorite movie titles to get back results for films that you might also enjoy! </p>
+		<a id="overlayButton" href="#">Got it?</a>
+	</div>
+
+<header class="container">
+	<a id="help" href="#">What is this?</a>
+	<div class="searchBox">
+		<div class="title">Search!</div>
+		<div class="searchContainer">
+			<form id="searchTerm">
+				<input type="text" name="search" id="search">
+				<input type="submit" name="submit" id="submit">
+			</form>
+		</div>
+	</div>
+</header>
+<div class="entries">
+	<!-- Results go here! -->
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</html>
